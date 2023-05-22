@@ -96,5 +96,8 @@ while (true)
             File.WriteAllLines("store.txt", products, Encoding.UTF8);
 
             break;
+        default:
+            Console.WriteLine("You can only use \"a,b,c\".");
+            break;
     } //swisch
 }
