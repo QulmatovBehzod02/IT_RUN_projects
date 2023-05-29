@@ -9,4 +9,4 @@ bool isIntEqual = intfive == intFive2;
     Console.WriteLine(isIntEqual);//Здесь будет True, потому что 5 ровно 5 
 
     bool isObjEqual = objFive == objFive2;
-    Console.WriteLine(isObjEqual);//Здесь будет False, потому что 
+    Console.WriteLine(isObjEqual);//Здесь будет False, потому что этот код проверяет не значение объектов, а их положение(path)
