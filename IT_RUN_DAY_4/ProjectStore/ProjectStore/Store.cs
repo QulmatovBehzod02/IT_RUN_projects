@@ -9,8 +9,8 @@ namespace Product
 {
     public class StoreClass
     {
-        string Name { get; set; }
-        int Count { get; set; }
+        public string Name { get; set; }
+        public int Count { get; set; }
 
         public StoreClass() { }
 
@@ -59,4 +59,10 @@ namespace Product
         }
 
     }
+    public class StoreClass2:StoreClass
+    {
+        StoreClass storeClasss = new StoreClass();
+     
+    }
 }
+

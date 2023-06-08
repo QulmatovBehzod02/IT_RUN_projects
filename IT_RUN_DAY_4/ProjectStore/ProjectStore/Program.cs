@@ -1,4 +1,4 @@
-﻿using ProjectStore;
+﻿using Product;
 
 StoreClass store = new StoreClass();
 
