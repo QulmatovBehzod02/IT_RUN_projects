@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace Task_linq
 {
-    partial class Student
+    public class Student
     {
-        public Guid Id { get; set; }
+        public uint Id { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
-        public string DateOfBirth { get; set; }
+        public DateTime DateOfBirth { get; set; }
     }
 }
